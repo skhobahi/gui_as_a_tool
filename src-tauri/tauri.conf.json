@@ -1,0 +1,34 @@
+{
+  "productName": "Agent HUD v4",
+  "version": "4.0.0",
+  "identifier": "com.agenthud.v4",
+  "build": {
+    "frontendDist": "../ui/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Agent HUD v4 - Command Center",
+        "width": 1400,
+        "height": 900,
+        "minWidth": 1000,
+        "minHeight": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "withGlobalTauri": true
+  },
+  "bundle": {
+    "active": false
+  },
+  "plugins": {
+    "shell": {
+      "all": false,
+      "open": true
+    }
+  }
+}
